@@ -1,0 +1,116 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  font-family: Optima , sans-serif;
+  font-size: 72px;
+  color: #71a4bf;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.centerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* --- Image properties --- */
+img {
+  width: 50%;
+  height: auto;
+}
+
+/* --- Typography --- */  
+body {
+  background-color: #f8f8f8;
+  font-family: Optima, sans-serif;
+  font-size: 18px;
+  color: #333333;
+  margin: 20px;
+}  
+
+main h2 {
+  font-family: Optima, sans-serif;
+  font-size: 24px;
+  color: #71a4bf;
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: normal;
+}
+
+main h3 {
+  font-family: Optima, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  color:#778899;
+  font-weight:normal;
+}
+
+main a {
+  text-align: center;
+}
+
+footer {
+  height: 50px;
+  font-family: Optima, sans-serif;
+  font-size: 20px;
+  color: #f8f8f8;
+  text-align: center;
+  background-color: #71a4bf;
+  padding: 5px 0 0 5px;
+}
+/* --- Navigation alignment (linear + center + no bullets) --- */
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-bottom: 0;
+}
+
+/* --- Navigation text --- */
+header nav ul li a {
+  color: #6f8daa;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-family: Optima;
+}
+
+/* --- Navigation effects --- */
+header nav ul li 
+  a:hover { color: #f4a4c0;}
+  a:visited { color: #284e7a;}
+  a:link { color: #778899;}
+
+/* --- Contact list --- */
+body ul {
+  list-style-type: none;
+  padding-bottom: 0;
+}
+
+/* --- Contact text --- */
+body ul a{
+  text-decoration: none;
+  padding-bottom: 0;
+}
+
+/* --- Contact effects --- */
+body ul li a:hover {
+  color: #f4a4c0;
+}
+
+/* --- Solid Divider --- */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
