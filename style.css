@@ -38,6 +38,17 @@ body {
   margin: 20px;
 }  
 
+main h1 {
+  font-family: Optima, sans-serif;
+  font-size: 30px;
+  color: #71a4bf;
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: normal;
+
 main h2 {
   font-family: Optima, sans-serif;
   font-size: 24px;
